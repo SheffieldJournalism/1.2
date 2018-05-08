@@ -1,0 +1,313 @@
+/* Import Google Web fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+
+
+body {
+  background: #fff;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 75px;
+  text-align: center;
+}
+
+.one {
+  height: 100vh;
+  max-width: 100%;
+  background: url(images/bah3.png);
+}
+
+.content {
+  margin: 0 auto;
+  padding: 1em 5%;
+  text-align: justify;
+}
+
+.title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  color: black;
+  width: 50%;
+  position: absolute;
+  top: 4em;
+  left: 2em;
+}
+
+.title h2 {
+font-weight: lighter;
+}
+
+.title span {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.profile img { /* styles the profile images in the first header section*/
+
+  width: 90px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 1em;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.profile {
+  text-align: center;
+  font-weight: normal;
+}
+
+.introtext {
+  text-align: justify;
+}
+
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 0.5em;
+  flex-basis: 20%; /*This determines each item's width*/
+  flex-grow: 1; /* This makes each item grow to fit the available space. set to 0 to tuen off*/
+}
+
+.origins p {
+text-align: justify;
+}
+
+.originstext {
+  text-align: justify;
+}
+
+.iran {
+	width: 40%;
+	height: 40%;
+}
+
+.path {
+  stroke-dasharray: 4000;
+  animation: dash 10s linear;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 4000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+blockquote {
+  text-align: center;
+  background: white;
+  padding: 1em;
+  font-size: 1.25em;
+  text-align: center;
+  color: 	#87CEEB;
+  border-bottom: 5px solid #999;
+  border-top: 5px solid #999;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.flip-container img {
+  max-width: 100%;
+}
+
+.originstext2 {
+  text-align: center;
+  position: relative;
+  padding-top: 2em;
+}
+
+.image_bg {
+  /* this sets the height of each
+  full width image section to that of the viewport.*/
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center !important;
+}
+
+.Comm1 {
+  background-image: url(images/bahaiback1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.worship {
+
+}
+
+.video1 {
+padding-left: 50vw;
+}
+
+.worshiptext1 {
+position: absolute;
+margin-right: 48vw;
+width: 40%;
+}
+
+.video2 {
+padding-left: 5vw;
+}
+
+.worshiptext2 {
+position: absolute;
+margin-left: 50vw;
+width: 35%;
+}
+
+.video3 {
+  padding-left: 50vw;
+}
+
+
+.Community{
+
+}
+
+.worshiptext3 {
+position: absolute;
+margin-left: 35em;
+margin-right: 8em;
+text-align: justify;
+}
+
+.video4 {
+padding-left: 45vw;
+}
+
+
+#star-svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+}
+
+
+.worshiptext4 {
+position: absolute;
+margin-right: 52vw;
+text-align: justify;
+}
+
+.nr1 {
+  height: 350px;
+}
+
+.nrtext1 {
+  float: right;
+  width: 50%;
+}
+
+.dancing {
+float: left;
+}
+
+.feast {
+    display: block;
+    margin: 0 auto;
+}
+
+.life1 {
+  background-image: url(images/bahaiback2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.life{
+
+}
+
+.video5 {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-slider {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.video-wrapper {
+	position: relative;
+	padding-top: 50vh;
+	height: 0;
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+footer {
+  height: 10px;
+  background: #999;
+  color: #eee;
+  text-align: center;
+  padding: 1em;
+}

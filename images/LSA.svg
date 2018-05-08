@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.47 448.84">
+  <defs>
+    <style>
+      .a {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .b {
+        font-size: 12px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .c {
+        letter-spacing: -0.01em;
+      }
+
+      .d {
+        letter-spacing: 0em;
+      }
+
+      .e {
+        letter-spacing: -0.01em;
+      }
+
+      .f {
+        letter-spacing: 0em;
+      }
+
+      .g {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <title>LSA</title>
+  <circle class="a" cx="19.5" cy="21.07" r="17"/>
+  <circle class="a" cx="81.5" cy="210.07" r="17"/>
+  <circle class="a" cx="19.5" cy="428.07" r="17"/>
+  <text class="b" transform="translate(52.22 10.04)"><tspan class="c">L</tspan><tspan x="5.5" y="0">ocal Spi</tspan><tspan class="d" x="44.17" y="0">r</tspan><tspan x="48.14" y="0">itual </tspan><tspan class="e" x="11.02" y="14.4">A</tspan><tspan x="18.29" y="14.4">ssembly</tspan></text>
+  <text class="b" transform="translate(102.16 202.04)">N<tspan class="f" x="7.9" y="0">a</tspan><tspan x="13.63" y="0">tional </tspan><tspan x="0.37" y="14.4">Spi</tspan><tspan class="d" x="15.92" y="14.4">r</tspan><tspan x="19.9" y="14.4">itual </tspan><tspan class="e" x="-2.92" y="28.8">A</tspan><tspan x="4.36" y="28.8">ssembly</tspan></text>
+  <text class="b" transform="translate(64.2 417.04)">Uni<tspan class="g" x="17.23" y="0">v</tspan><tspan x="22.88" y="0">ersal </tspan><tspan x="0.88" y="14.4">House of </tspan><tspan x="6.14" y="28.8">Justi</tspan><tspan class="e" x="28.73" y="28.8">c</tspan><tspan x="34.03" y="28.8">e </tspan></text>
+  <path d="M32.43,107.17c9,14.14,20.7,26.36,29.73,40.54a237.42,237.42,0,0,1,21.92,43.94,239.16,239.16,0,0,1,15,96c-.1,1.93,2.9,1.93,3,0A241.53,241.53,0,0,0,87,190.85a240.79,240.79,0,0,0-21.32-43.23c-9.23-14.74-21.29-27.35-30.63-42-1-1.62-3.63-.12-2.59,1.51Z" transform="translate(-18 -80.43)"/>
+  <path d="M99.3,286.43c-3.1,60.21-37.82,112.06-53.59,169a199.7,199.7,0,0,0-7.52,47.38c0,1.93,3,1.93,3,0C43,442.5,77.5,390.37,93.93,333.77a208,208,0,0,0,8.37-47.34c.1-1.93-2.9-1.93-3,0Z" transform="translate(-18 -80.43)"/>
+</svg>
