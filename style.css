@@ -80,9 +80,6 @@ font-weight: lighter;
   flex-grow: 1; /* This makes each item grow to fit the available space. set to 0 to tuen off*/
 }
 
-.origins p {
-text-align: justify;
-}
 
 .originstext {
   text-align: justify;
@@ -225,6 +222,7 @@ position: absolute;
 margin-left: 35em;
 margin-right: 8em;
 text-align: justify;
+padding-top: 7vh;
 }
 
 .video4 {
@@ -233,7 +231,7 @@ padding-left: 45vw;
 
 
 #star-svg {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   width: 150px;
@@ -246,6 +244,7 @@ padding-left: 45vw;
 position: absolute;
 margin-right: 52vw;
 text-align: justify;
+padding-top: 10vh;
 }
 
 .nr1 {
