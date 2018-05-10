@@ -23,6 +23,7 @@ h1 {
   height: 100vh;
   max-width: 100%;
   background: url(images/bah3.png);
+	background-position: right; 
 }
 
 .content {
